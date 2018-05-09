@@ -12,7 +12,7 @@ BACKEND_PORT=13201
 
 ##### Nginx #####
 NGINX_PORT=15201
-ALLOW_DOMAIN=127.0.0.1
+ALLOW_DOMAIN=s0565b33d.fastvps-server.com
 
 ##### Frontend #####
 FRONTEND_PORT=5000
