@@ -1,0 +1,19 @@
+##### Postgresql #####
+
+POSTGRES_DB=madblackpixel
+POSTGRES_USER=madblackpixel
+POSTGRES_PASSWORD=WEscjwf324lsdfk)3ksd
+
+POSTGRES_HOST=database
+POSTGRES_PORT=5432
+
+##### Backend #####
+BACKEND_PORT=13201
+
+##### Nginx #####
+NGINX_PORT=15201
+ALLOW_DOMAIN=127.0.0.1
+
+##### Frontend #####
+FRONTEND_PORT=5000
+
