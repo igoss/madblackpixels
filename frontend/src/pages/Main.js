@@ -14,7 +14,7 @@ export default class Main extends Component {
 
     async componentWillMount() {
         try {
-            const text_content = await fetch('http://s0565b33d.fastvps-server.com/?format=json');
+            const text_content = await fetch('http://madblackpixels.com/?format=json');
             const page_text_content = await text_content.json();
             this.setState({page_text_content});
         } catch (e) {

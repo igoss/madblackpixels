@@ -119,6 +119,6 @@ STATIC_URL = '/static/'
 
 # Core list settings
 CORS_ORIGIN_WHITELIST = (
-    'localhost',
-    'localhost:{}'.format(os.environ['NGINX_PORT'])
+    'madblackpixels.com',
+    'madblackpixels.com:{}'.format(os.environ['NGINX_PORT'])
 )
