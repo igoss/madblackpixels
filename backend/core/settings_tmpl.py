@@ -13,7 +13,7 @@ SECRET_KEY = '@b7@#&ctkj3kvs68dc-j62vfws124n0hvxq&pqe16*dqunn-s&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['backend']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -118,4 +118,4 @@ REST_FRAMEWORK = {
 STATIC_URL = '/static/'
 
 # Core list settings
-CORS_ORIGIN_WHITELIST = ('127.0.0.1','localhost')
+CORS_ORIGIN_WHITELIST = ()

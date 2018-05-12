@@ -18,7 +18,7 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     env_file:
-      - ./environment
+      - ./environments/$ENV_NAME
     command: /backend/etc/setup.sh
     ports:
       - "$BACKEND_PORT"
@@ -29,7 +29,7 @@ services:
     restart: always
     image:   postgres:9.6
     env_file:
-      - ./environment
+      - ./environments/$ENV_NAME
     ports:
       - "$POSTGRES_PORT"
 
@@ -39,7 +39,7 @@ services:
       context: ./nginx
       dockerfile: Dockerfile
     env_file:
-      - ./environment
+      - ./environments/$ENV_NAME
     ports:
       - "$NGINX_PORT:$NGINX_PORT"
     depends_on:

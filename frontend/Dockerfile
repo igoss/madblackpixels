@@ -1,4 +1,4 @@
-FROM node:8.0.0
+FROM node:8.11.1
 ENV NPM_CONFIG_LOGLEVEL warn
 
 RUN npm install -g serve
